@@ -1,3 +1,4 @@
+#!/usr/bin/perl -w
 
 # Get passed arguments
 $param1 = $ARGV[0];
@@ -15,3 +16,8 @@ closedir $dir;
 foreach (@files) {
 print $_;
 }
+
+# Check if file exists
+if (-e $filename) {
+ print "File Exists!";
+ } 
