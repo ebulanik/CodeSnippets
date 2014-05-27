@@ -1,3 +1,8 @@
+git config --global user.email "enginbulanik@yahoo.com"
+git config --global user.name "ebulanik"
+
+
 # How push back your changes
+git add
 git commit
 git push
