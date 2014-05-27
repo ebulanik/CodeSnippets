@@ -1,0 +1,3 @@
+# How push back your changes
+git commit
+git push
